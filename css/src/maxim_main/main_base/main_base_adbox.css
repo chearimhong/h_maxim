@@ -1,0 +1,11 @@
+/*main_base_adbox.css*/
+#adbox {
+  position:relative;
+  width: 100%; height: 900px; background-color:#fff; }
+
+.adbox_img {
+  float:left;
+  width: 60%; height: 900px; }
+.adbox_text01 {
+  float:left; position:absolute; top:186px; left:65%;
+  width: 490px; height: 170px;}

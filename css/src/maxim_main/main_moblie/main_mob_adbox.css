@@ -1,0 +1,20 @@
+/*main_mob_adbox.css*/
+@media screen and (max-width:480px) { 
+#adbox {
+  height:79.3333vw; }
+.adbox_img { 
+  width:55%; height:100%;
+  background-image: url(../../../../img/maxim_main_moblie/adbox/adbox_img.png);
+  background-repeat: no-repeat;
+  background-size:cover;}
+.adbox_text01 {
+  top:20%; left:58%;
+  width:40%; height:41.666666vw;
+  background-image:url(../../../../img/maxim_main_moblie/adbox/adbox_text.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;
+  }
+
+
+}

@@ -1,0 +1,23 @@
+/*main_tab_asidebox.css*/
+@media screen and (min-width:481px) and (max-width:767px) { 
+#asidebox {
+  height:104.16666vw;
+  background-image:url(../../../../img/maxim_main_tablet/asidebox/aside_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;}
+
+.aside_text_box {
+  position:absolute;
+  top:5%; right:0%; left:78%;
+  width: 20%; height: 90%; 
+  background-image: url(../../../../img/maxim_main_tablet/asidebox/aside_box.png);}
+
+.aside_text {
+  top:5%; right:13%;
+  width: 75%; height:90%; 
+  background-image: url(../../../../img/maxim_main_tablet/asidebox/aside_text_line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+}

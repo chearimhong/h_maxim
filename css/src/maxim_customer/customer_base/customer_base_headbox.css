@@ -1,0 +1,32 @@
+/*customer_base_headbox.css*/
+#headbox>h2{
+  position:absolute;  
+  top:45%; left:50%; margin-left:-25%;
+  width:50%; height:10%;
+  background-image:url(../../../../img/maxim_community_pc/headbox/head_text01.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;}
+
+
+  @media screen and (max-width:480px) {
+#headbox>h2{
+  position:absolute;  
+  top:45%; left:50%; margin-left:-36.45833333333333vw;
+  width:72.91666666666667vw; height:10%;
+  background-image:url(../../../../img/maxim_community_pc/headbox/head_text01.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;}
+  }
+
+
+  @media screen and (min-width:481px) and (max-width:767px) {
+#headbox>h2{
+  position:absolute;  
+  top:45%; left:50%; margin-left:-36.45833333333333vw;
+  width:72.91666666666667vw; height:10%;
+  background-image:url(../../../../img/maxim_community_pc/headbox/head_text01.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;}

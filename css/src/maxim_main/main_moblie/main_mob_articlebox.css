@@ -1,0 +1,30 @@
+/*main_mob_articlebox.css*/
+
+  @media screen and (max-width: 480px) {
+     #articlebox {width: 100%; height:83.3333vw;}
+
+    .article_img {top:-10%; left:30%; margin-left:0;
+      width:70%; height:100%;
+      background-image: url(../../../../img/maxim_main_moblie/articlebox/article_img.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size:cover;}
+
+    .article_text {
+      top:5%; right:-5%;
+      width: 20%; height: 90%;
+      background-image: url(../../../../img/maxim_main_moblie/articlebox/article_text_line.png);
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size:contain;}
+
+    .top_btn {
+      position:fixed; top:80%;left:90%;
+      z-index:1000;
+      float:left; width: 7.5vw; height: 10.41666vw; 
+      background-image: url(../../../../img/maxim_main_moblie/articlebox/popup_icon.png);
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size:contain;}
+    .top_btn > a {display:block; width: 100%; height: 100%;transition:all 500ms;}
+  }

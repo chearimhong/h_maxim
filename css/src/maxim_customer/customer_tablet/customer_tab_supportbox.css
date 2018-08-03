@@ -1,0 +1,63 @@
+/*customer_tab_supportbox.css*/
+@media screen and (min-width:481px) and (max-width:767px){
+.supportbox {
+  position:relative; 
+  width: 100%; height:170.4537157757497vw; padding-top: 7.822685788787484vw;
+  background-image:url(../../../../img/maxim_community_pc/communitybox/coffee_img.png);
+  background-position:top left;
+  background-repeat:no-repeat; }
+.supportbox > h2 {
+  margin-left:5.215123859191656vw;
+  width:65.1890482398957vw; height:7.822685788787484vw; 
+  background-image: url(../../../../img/maxim_community_tablet/supportbox/support_text.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;}
+.supportbox_img {
+  width: 100%; height: 37.8096479791395vw; margin-top:4.215123859191656vw;
+  background-image:url(../../../../img/maxim_community_tablet/supportbox/support_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;}
+/*supportbox_text*/
+.supportbox_text {padding-left:5.215123859191656vw;
+  width:87%; height: 75.1890482398957vw; }
+.supportbox_text > p {
+  padding-left:1.303780964797914vw; padding-top:2.607561929595828vw;
+  text-align:left; line-height:5.996088657105606vw; 
+  height: 8.996088657105606vw;  font-size:1.2rem;}
+/*text_01*/
+.supportbox_text_01 {
+  padding-left:1.303780964797914vw; height:16.94915254237288vw; margin-top:0;}
+.supportbox_text_01 > dt {
+  margin-top:30px;line-height:7.822685788787484vw;height: 7.822685788787484vw;
+  color:#673f02; font-size:1.2rem; font-weight:bold;}
+.supportbox_text_01 > dd {
+  margin-top:10px;height: 15.90612777053455vw; font-size:1rem;}
+/*text_02*/
+.supportbox_text_02 {
+  padding-left:1.303780964797914vw;height:16.94915254237288vw; margin-top:0;}
+.supportbox_text_02 > dt { 
+  margin-top:30px;line-height:7.822685788787484vw; height: 7.822685788787484vw;
+  color:#673f02; font-size:1.2rem;font-weight:bold;}
+.supportbox_text_02 > dd {
+  margin-top:10px;height: 15.90612777053455vw; font-size:1rem;}
+/*text_03*/
+.supportbox_text_03 {
+  padding-left:1.303780964797914vw;height:16.94915254237288vw; margin-top:0;}
+.supportbox_text_03 > dt {
+  margin-top:30px;line-height:7.822685788787484vw; height: 7.822685788787484vw;
+  color:#673f02; font-size:1.2rem;font-weight:bold;}
+.supportbox_text_03 > dd {
+  margin-top:10px;height: 15.90612777053455vw;font-size:1rem;}
+
+.contact_btn {
+  margin: auto; margin-top:10.51890482398957vw;
+  border-radius:1.564537157757497vw; width:32.59452411994785vw; height:7.822685788787484vw; background-color: #000;
+  text-align:center;}
+.contact_btn > a {color:#fff; line-height:7.822685788787484vw; font-size:1rem;width: 100%; height: 100%; display:block; }
+
+
+
+
+}

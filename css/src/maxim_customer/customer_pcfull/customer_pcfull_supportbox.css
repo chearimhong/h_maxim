@@ -1,0 +1,58 @@
+/*customer_pcfull_supportbox.css*/
+@media screen and (min-width:1366px) {
+.supportbox {
+  box-sizing:border-box; padding-top:60px;
+  position:relative; 
+  width: 100%; height: 1750px; 
+  background-image:url(../../../../img/maxim_community_pc/communitybox/coffee_img.png);
+  background-position:top left;
+  background-repeat: no-repeat;}
+.supportbox > h2 { 
+  width: 764px; height: 90px; margin-left:60px;
+  background-image:url(../../../../img/maxim_community_pc_full/supportbox/support_text.png);
+  background-repeat:no-repeat;
+  background-position:left;
+  background-size:contain;}
+.supportbox_img {
+  width: 100%; height: 407px; margin-top: 50px;
+  background-image:url(../../../../img/maxim_community_pc_full/supportbox/support_img.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;}
+/*supportbox_text*/
+.supportbox_text { 
+  margin-left:60px; padding:20px;
+  width: 1230px; height: 900px;}
+.supportbox_text > p {
+  text-align:left; line-height:69px; 
+  height: 69px;  font-size:1.5rem;}
+/*text_01*/
+.supportbox_text_01 {height: 182px; margin-top:10px;}
+.supportbox_text_01 > dt {
+  line-height:60px; height: 60px; color:#673f02; font-size:1.5rem;}
+.supportbox_text_01 > dd {
+  height: 122px; font-size:1.5rem;}
+/*text_02*/
+.supportbox_text_02 {height: 182px; margin-top:10px;}
+.supportbox_text_02 > dt {
+  line-height:60px; height: 60px; color:#673f02; font-size:1.5rem;}
+.supportbox_text_02 > dd {
+  height: 122px; font-size:1.5rem;}
+/*text_03*/
+.supportbox_text_03 {height: 182px; margin-top:10px;}
+.supportbox_text_03 > dt {
+  line-height:60px; height: 60px; color:#673f02; font-size:1.5rem;}
+.supportbox_text_03 > dd {
+  height: 122px;  font-size:1.5rem;}
+
+.contact_btn {
+  position: absolute; top:auto; bottom:300px; left:50%; margin-left:-200px;
+  border-radius:12px; width: 400px; height:80px; background-color: #000;
+  text-align:center;}
+.contact_btn > a {color:#fff; line-height:80px; font-size:1.5rem;width: 100%; height: 100%; display:block; }
+
+
+
+
+
+}

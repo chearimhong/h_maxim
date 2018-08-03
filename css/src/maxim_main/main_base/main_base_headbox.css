@@ -1,0 +1,56 @@
+/*main_base_headbox.css*/
+
+#headbox {
+  position:relative;
+  width: 100%; height:100%; 
+  background-image:url(../../../../img/maxim_main_pc/headbox/head_img.png);
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-size:cover;}
+
+h1 {
+  position:absolute; top:11px; left:50%; margin-left:-170.5px;
+  width: 341px; height: 125px; 
+  background-image:url(../../../../img/maxim_main_pc/headbox/maxim_logo.png);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;}
+
+.navi {
+  position:absolute; top:67px; left:50%; margin-left: -45%;
+  width: 67px;height: 60px; 
+  /*background-image:url(../../../../img/maxim_main_pc/headbox/head_gnb.png);*/}
+#navibox {
+  position:absolute; top:0;
+  width: 413px; height: 560px; 
+  background-image:url(../../../../img/maxim_main_pc/gnb/gnb_on.png);}
+#x_btn {
+  width: 15%; height:9%; 
+  background-image: url(../../../../img/maxim_main_moblie/headbox/close_btn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+#navibox > ul {
+  position:absolute;top:106px; right: 76px;
+  width: 279px; height: 356px;}
+#navibox > ul > li {
+  width:279px; height: 71.2px; color:#fff;}
+#navibox > ul > li > a {color:#fff;}
+
+
+
+
+
+
+.text_box01 {
+  position:absolute; top:420px; left:50%; margin-left:-440px;
+  width: 880px; height: 40px; }
+.text_box02 {
+  position:absolute; top:479px; left:50%; margin-left:-380px;
+  width: 760px; height: 40px;}
+.arrow {
+  position:absolute; left:50%; margin-left:-37px; 
+  width: 74px; height: 40px; 
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;}

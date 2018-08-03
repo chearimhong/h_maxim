@@ -1,0 +1,83 @@
+/*main_pc_headbox.css*/
+@media screen and (min-width:768px) and (max-width:1365px) {  
+#headbox {
+  position:relative;
+  width: 100%; height:100%; 
+  background-image:url(../../../../img/maxim_main_pc/headbox/head_img.png);
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-size:cover;}
+
+h1 {
+  position:absolute; top:0; left:50%; margin-left:-9.375rem;
+  width: 18.75rem; height:9.6875rem; 
+  background-image:url(../../../../img/maxim_main_pc/headbox/maxim_logo.png);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;}
+h1 > a {display:block; width: 100%; height: 100%;}
+
+/*---------navi---------*/
+.navi {
+  position:absolute; top:9%; left:50%; margin-left: -45%;
+  width: 4.1875rem;height:3.75rem;}
+  .navi > button {position:relative;z-index:5000;width: 100%; height: 100%; padding:0; }
+  .icon {display:block; width: 100%; height: 4px; background-color: #fff;
+      position:relative;transition:all 500ms ease;}
+.icon:before{content:" "; display:block; width: 100%; height:inherit; background-color: #fff;
+             position: absolute; top:-1.6rem;transition:all 500ms ease;}
+.icon:after{content:" "; display:block; width: 100%; height:inherit; background-color: #fff;
+            position:relative; bottom:-1.6rem;transition:all 500ms ease;}
+.navi > button.active .icon {background:transparent;}
+.navi > button.active .icon:before {transform-origin:top left; width: 130%; transform:rotate(40deg);}
+.navi > button.active .icon:after {transform-origin:left bottom;width: 130%; transform:rotate(-40deg);}
+
+/*------------navibox---------*/
+#navibox {z-index:1500; display: none;
+  position:absolute; top:0;
+  width:25.8125rem; height:32.25rem; 
+  background-image:url(../../../../img/maxim_main_pc/gnb/gnb_on.png);}
+#navibox > ul {
+  position:absolute;top:4.375rem; right: 3.625rem;
+  width: 18.75rem; height: 23.75rem; }
+#navibox > ul > li {
+  width:17.4375rem; height:4.45rem;
+  text-align:center; line-height:4.45rem; 
+  font-size:1.8rem; color:#fff;}
+#navibox > ul > li > a {color:#fff;}
+
+
+/*---------------------------------------*/
+
+
+
+
+.text_box01 {z-index:50;
+  position:absolute; top:45%; left:50%; margin-left:-35%;
+  width:70%; height:10%;
+  background-image:url(../../../../img/maxim_main_pc/headbox/head_text01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;}
+
+.text_box01 > span {display:block;width:0; height:0; overflow:hidden;}
+.text_box02 > span {display:block;width:0; height:0; overflow:hidden;}
+
+
+.text_box02 {z-index:50;
+  position:absolute; top:55%; left:50%; margin-left:-30%;
+  width: 60%; height: 6%; 
+  background-image:url(../../../../img/maxim_main_pc/headbox/head_text02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+.arrow {
+  position:absolute; top:85%; left:50%; margin-left:-2.3125rem;
+  width: 4.625rem; height:2.5rem; 
+  background-image:url(../../../../img/maxim_main_pc/headbox/head_arrow.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;}
+  .arrow > a {display:block; width: 100%; height: 100%; }
+}
+

@@ -1,0 +1,30 @@
+/*main_mob_sidebox.css*/
+@media screen and (max-width:480px) {  
+#sidebox {
+  width: 100%; height:93.75vw;}
+.side_banner {
+  padding-top:5%; height: 20%; }
+.side_banner_text {
+  width: 40%; height: 70%;
+  text-align: center;font-size:1rem;
+  background-image:url(../../../../img/maxim_main_moblie/sidebox/side_text_1.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: contain;}
+
+.side_img {
+  top:35%; left:10%;
+  width: 50%; height: 50%; 
+  background-image: url(../../../../img/maxim_main_moblie/sidebox/side_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+
+.side_text {
+  top:45%; left:60%; margin-left:0;
+  width: 30%; height:30%;
+  background-image: url(../../../../img/maxim_main_moblie/sidebox/maxim_foot_logo.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;}
+  }

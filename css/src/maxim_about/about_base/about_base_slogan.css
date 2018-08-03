@@ -1,0 +1,66 @@
+/*about_base_slogan.css*/
+
+#slogan_box {
+  position:relative; width: 100%; height:2800px;}
+.slogan_img {width: 100%; height: 2700px;}
+
+
+/*---slogan_head---*/
+.slogan_head {width: 100%; height: 280px; }
+.slogan_logo {
+  position:absolute;
+  top:30px; left:50%; margin-left:-81px;
+  width: 162px; height: 152px;}
+.slogan_title {
+  position:absolute; 
+  top:182px; left:50%; margin-left:-239px;
+  width:478px; height: 85px;}
+
+/*----slogan_area------*/
+.slogan_area {
+  position:relative;
+  width: 100%; height: 2450px; }
+.slogan_ul{
+  position:absolute;top:148px;
+  width: 100%; height: 2100px; }
+
+/*----slogan_sbox_1----*/
+.slogan_sbox_1 {
+  box-sizing:border-box;padding:47px 30px 64px 40px;
+  width: 918px; height: 359px;}
+.sbox_text_01 {
+  float:left;
+  width: 636px; height: 264px;}
+.sbox_icon_01 {
+  float:left;margin-top: 54px;
+  width: 203px; height: 208px;}
+
+/*-----slogan_sbox_2-------*/
+.slogan_sbox_2 {
+  box-sizing:border-box; padding:57px 17px 62px 26px;
+  position:absolute;top:778px;right:0;
+  width: 905px; height: 359px;}
+.sbox_text_02 {
+  float:right;
+  width: 668px; height: 240px;}
+.sbox_icon_02 {
+  float:left; margin-top:50px;
+  width: 187px; height: 177px;}
+
+/*------slogan_sbox_3-------*/
+.slogan_sbox_3 {
+  box-sizing: border-box; padding:77px 45px 81px 40px;
+  position:absolute; bottom:310px;
+  width: 723px; height: 359px;}
+.sbox_text_03 {
+  float:left;
+  width: 419px; height: 201px;}
+.sbox_icon_03 {
+  float:left; margin-left: 36px;
+  width: 146px; height: 181px;}
+
+
+
+
+
+

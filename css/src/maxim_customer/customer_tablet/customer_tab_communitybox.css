@@ -1,0 +1,110 @@
+/*customer_tab_communitybox.css*/
+@media screen and (min-width:481px) and (max-width:767px) {
+#communitybox {
+  position:relative;  padding-top: 7.822685788787484vw;
+  width: 100%; height:225.5671447196871vw;
+  background-image:url(../../../../img/maxim_community_pc/communitybox/coffee_img.png);
+  background-repeat:no-repeat;
+  background-position:top left;  }
+
+.community_textbox { 
+  box-sizing:border-box; padding-top:1.8125vw; padding-left:5.215123859191656vw;
+  width: 100%; height:29.98696219035202vw; 
+  }
+
+.community_textbox > h2 { 
+  width:65.1890482398957vw; height:7.822685788787484vw; margin-left:0;
+  background-image:url(../../../../img/maxim_community_tablet/communitybox/community_text.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;}
+.community_textbox > h3 {padding-left:0; padding-top:3.911342894393742vw;
+  width:84.63541666666667vw; height:11.71875vw;
+  font-size:1.2rem; font-weight:lighter; 
+  line-height:4.395604395604396vw;}
+
+/*community_area*/
+.community_area {
+ position:absolute; top:40.46805736636245vw; left:50%; margin-left:-50%;
+ width:100%; height: auto; padding-top:2.607561929595828vw;}
+
+/* --------------------------------------------- */
+/*community_area 공통영역*/
+.communiti_area_card {position:relative;
+  float:left; margin-left:6.51890482398957vw;
+  border-radius:20px; box-shadow:1.303780964797914vw 1.303780964797914vw 1.303780964797914vw #8C8987;
+  width:39.11342894393742vw; height: auto;
+  margin-bottom:6.51890482398957vw;}
+
+.area_img {
+  border-top-left-radius:20px; border-top-right-radius:20px;
+  width:100%; height:35.20208604954368vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; }
+
+.area_01_img {background-image:url(../../../../img/maxim_community_tablet/communitybox/img_01.png);}
+.area_02_img {background-image:url(../../../../img/maxim_community_tablet/communitybox/img_02.png);}
+.area_03_img {background-image:url(../../../../img/maxim_community_tablet/communitybox/img_03.png);}
+.area_04_img {background-image:url(../../../../img/maxim_community_tablet/communitybox/img_04.png);}
+.icon_01 {
+  background-image:url(../../../../img/maxim_community_pc/communitybox/icon_01.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;}
+.icon_02 {
+  background-image:url(../../../../img/maxim_community_pc/communitybox/icon_02.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;}
+.icon_03 {
+  background-image:url(../../../../img/maxim_community_pc/communitybox/icon_03.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;}
+.icon_04 {
+  background-image:url(../../../../img/maxim_community_pc/communitybox/icon_03.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;}
+
+
+.area_img>div{position:absolute; top:22.55671447196871vw; margin-left:1.303780964797914vw;
+  width:10.43024771838331vw; height:10.43024771838331vw; }  
+.area_text {
+  border-bottom-left-radius:20px; border-bottom-right-radius:20px; 
+  width:100%; height: auto;
+  background-color: #fff;}
+.text_big_box {
+  width: 100%; height: auto; box-sizing:border-box;
+  padding:2.607561929595828vw; background-color: #fff;
+  border-bottom-left-radius:20px; border-bottom-right-radius:20px; }
+.text_big_box > dt, 
+.text_big_box  p {
+  width: 100%; height:auto; 
+  font-weight:bold; font-size:0.8rem;
+  letter-spacing:-0.0125rem; word-spacing:-0.025rem;}
+.text_big_box  p {margin-bottom:calc(0.732601vw + 85px);}
+.text_big_box > dd {
+  width: 100%; height: auto; margin-top:1.303780964797914vw; 
+  font-size:0.7rem; letter-spacing:-0.0125rem; word-spacing:-0.035rem;}
+.community_area_01 > a {width: 100%; height: 100%; display:block;}
+.community_area_02 > a {width: 100%; height: 100%; display:block;}
+.community_area_03 > a {width: 100%; height: 100%; display:block;}
+.communiti_area_card > a .area_img {transition: all 500ms ease; 
+                        background-size:100%;}
+.communiti_area_card > a:hover .area_img { background-size:130%;}
+
+
+
+
+/*more_icon*/
+.more_icon {
+  position:absolute; top:auto;bottom:-13.03780964797914vw; left:50%; margin-left:-5.215123859191655vw;
+  width:10.43024771838331vw; height: 10.43024771838331vw;
+  background-image:url(../../../../img/maxim_community_pc/communitybox/more_icon.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:contain;}
+.more_icon > a { width: 100%; height: 100%; display:block;}
+}

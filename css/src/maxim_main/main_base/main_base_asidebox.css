@@ -1,0 +1,8 @@
+/*main_base_asidebox.css*/
+#asidebox {
+  position:relative;
+  width: 100%; height:1002px;background-color:#FFFFA0;}
+
+.aside_text {
+  position:absolute; top:71px; right:5%;
+  width: 148px; height: 781px;}

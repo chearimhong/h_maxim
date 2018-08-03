@@ -1,0 +1,18 @@
+/*main_tab_adbox.css*/
+@media screen and (min-width:481px) and (max-width:767px) { 
+#adbox {
+  height:105.4166vw;}
+
+.adbox_img {
+  width:58.3333vw; height: 105.4166vw;background-color: #ccc;
+  background-image: url(../../../../img/maxim_main_tablet/adbox/adbox_img.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;}
+.adbox_text01 {
+  float:left; position:absolute; top:3.125rem;  left:61%;
+  width: 37.5vw; height:62.5vw; 
+  background-image: url(../../../../img/maxim_main_tablet/adbox/adbox_text.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;}

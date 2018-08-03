@@ -1,0 +1,49 @@
+@media screen and (max-width:480px) {
+#about_infobox {height:160.8333333333333vw;}
+
+
+
+/*about_textbox*/
+.about_textbox { 
+  width:100%; height:100%;
+  background-image:url(../../../../img/maxim_about_moblie/infobox/ad_img.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;}
+
+.about_textbox > ul { 
+  top:0; left:50%; margin-left:-50%;
+  width:100%; height:100%;
+  background-image:url(../../../../img/maxim_about_moblie/infobox/box.png);}
+.about_01 { 
+  position: absolute; top:10%; left:50%; margin-left:-42.5%;
+  width:85%; height:7%; 
+  background-image:url(../../../../img/maxim_about_moblie/infobox/brand_info.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;}
+.about_02 {
+  position:absolute; top:22%; left:50%; margin-left:-42.5%;
+  width:85%; height:9%;
+  background-image:url(../../../../img/maxim_about_moblie/infobox/maxim_text.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;}
+.about_03{ 
+  position:absolute; top:35%;left:50%; margin-left:-42.5%;
+  width:85%; height:60%; color:#fff; 
+  font-size:4vw; text-align:left; }
+
+
+.about_img { display:none; }
+
+
+
+
+
+
+
+
+
+  
+}

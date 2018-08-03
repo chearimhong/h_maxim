@@ -1,0 +1,108 @@
+/*customer_pcfull_communitybox.css*/
+@media screen and (min-width:1366px) {
+
+#communitybox { 
+  padding-top:40px; box-sizing:border-box;position:relative;
+  width:100%; height: 1200px; 
+  background-image:url(../../../../img/maxim_community_pc/communitybox/coffee_img.png);
+  background-repeat:no-repeat;
+  background-position:top left;}
+
+.community_textbox {
+  padding-top:60px; 
+  width: 100%; height: 250px; }
+
+.community_textbox > h2 {
+  width: 764px; height: 90px; margin-left:40px;  
+  background-image:url(../../../../img/maxim_community_pc_full/communitybox/community_text.png);
+  background-repeat:no-repeat;
+  background-position:left;
+  background-size:contain }
+.community_textbox > h3 { 
+  box-sizing:border-box; padding-left:40px;
+  width:100%; height: 160px; font-weight:lighter;
+  line-height:60px; }
+
+/*community_area*/
+.community_area { 
+margin: auto;
+width:1300px;height:783px;}
+
+/* --------------------------------------------- */
+/*community_area 공통영역*/
+.communiti_area_card {
+  position:relative;
+  float:left; margin-left:70px; 
+  border-radius:20px; box-shadow:10px 10px 10px #8C8987;
+  width:350px; height: auto; }
+
+.area_img {
+  border-top-left-radius:20px; border-top-right-radius:20px;
+  width:100%; height:270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; }
+.area_01_img {background-image:url(../../../../img/maxim_community_pc_full/communitybox/img_01.png);}
+.area_02_img {background-image:url(../../../../img/maxim_community_pc_full/communitybox/img_02.png);}
+.area_03_img {background-image:url(../../../../img/maxim_community_pc_full/communitybox/img_03.png);}
+.icon_01 {
+  background-image:url(../../../../img/maxim_community_pc_full/communitybox/icon_01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+.icon_02 {
+  background-image:url(../../../../img/maxim_community_pc_full/communitybox/icon_02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+.icon_03 {
+  background-image:url(../../../../img/maxim_community_pc_full/communitybox/icon_03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+
+.area_img>div{
+  position:absolute; top:180px; margin-left:10px;
+  width:80px; height:80px;}  
+.area_text {
+  border-bottom-left-radius:20px; border-bottom-right-radius:20px; 
+  width:100%; height: auto;
+  background-color: #fff;}
+.text_big_box {
+  width: 100%; height: auto; box-sizing:border-box;
+  padding:20px; background-color: #fff;
+  border-bottom-left-radius:20px; border-bottom-right-radius:20px; }
+.text_big_box > dt, 
+.text_big_box  p {
+  width: 100%; height:auto; 
+  font-weight:bold; font-size:0.95rem;
+  letter-spacing:-0.0125rem; word-spacing:-0.025rem;}
+.text_big_box  p {margin-bottom:calc(0.732601vw + 85px);}
+.text_big_box > dd {
+  width: 100%; height: auto; margin-top:10px; 
+  font-size:0.8rem; letter-spacing:-0.0125rem; word-spacing:-0.035rem;}
+
+.community_area_01 > a {width: 100%; height: 100%; display:block;}
+.community_area_02 > a {width: 100%; height: 100%; display:block;}
+.community_area_03 > a {width: 100%; height: 100%; display:block;}
+.communiti_area_card > a .area_img {transition: all 500ms ease; 
+                        background-size:100%;}
+.communiti_area_card > a:hover .area_img {background-size:130%;}
+.community_area_04 {display:none;}
+
+
+
+
+
+/*more_icon*/
+.more_icon {
+  position:absolute; top:auto; bottom:10px; left:50%;margin-left:-43px;
+  width: 86px; height: 86px;
+  background-image:url(../../../../img/maxim_community_pc_full/communitybox/more_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+.more_icon > a {width: 100%; height: 100%; display:block;}
+
+
+}

@@ -1,0 +1,62 @@
+/*customer_mob_supportbox.css*/
+@media screen and (max-width:480px){
+.supportbox {
+  position:relative; 
+  width: 100%; height:auto; padding-top:20.83333333333333vw;
+  background-image:url(../../../../img/maxim_community_pc/communitybox/coffee_img.png);
+  background-position:top left;
+  background-repeat:no-repeat; }
+.supportbox > h2 {
+  margin-left:5.215123859191656vw;
+  width:83.33333333333333vw; height:10.41666666666667vw;
+  background-image: url(../../../../img/maxim_community_tablet/supportbox/support_text.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;}
+.supportbox_img {
+  width: 100%; height: 37.8096479791395vw; margin-top:4.215123859191656vw;
+  background-image:url(../../../../img/maxim_community_tablet/supportbox/support_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;}
+/*supportbox_text*/
+.supportbox_text {padding-left:5.215123859191656vw; padding-bottom:6.25rem;
+  width:87%; height:auto; }
+.supportbox_text > p {
+  padding-left:1.303780964797914vw; padding-top:2.607561929595828vw;
+  text-align:left; line-height:5.996088657105606vw; 
+  height: 8.996088657105606vw;  font-size:3.333333333333333vw;}
+/*text_01*/
+.supportbox_text_01 {
+  padding-left:1.303780964797914vw; height:auto; margin-top:6.25vw;}
+.supportbox_text_01 > dt { 
+  margin-top:6.25vw;line-height:7.822685788787484vw;height:auto;
+  color:#673f02; font-size:3.333333333333333vw; font-weight:bold;}
+.supportbox_text_01 > dd {
+  margin-top:4.166666666666667vw;height: auto; font-size:3.333333333333333vw;}
+/*text_02*/
+.supportbox_text_02 {
+  padding-left:1.303780964797914vw;height:auto; margin-top:11.45833333333333vw;}
+.supportbox_text_02 > dt {
+  margin-top:6.25vw;line-height:7.822685788787484vw; height:auto;
+  color:#673f02; font-size:3.333333333333333vw;font-weight:bold;}
+.supportbox_text_02 > dd {
+  margin-top:4.166666666666667vw;height:auto; font-size:3.333333333333333vw;}
+/*text_03*/
+.supportbox_text_03 {
+  padding-left:1.303780964797914vw;height:auto; margin-top:11.45833333333333vw;}
+.supportbox_text_03 > dt {
+  margin-top:6.25vw;line-height:7.822685788787484vw; height:auto;
+  color:#673f02; font-size:3.333333333333333vw;font-weight:bold;}
+.supportbox_text_03 > dd {
+  margin-top:4.166666666666667vw;height:auto;font-size:3.333333333333333vw;}
+
+.contact_btn {
+  margin: auto; margin-top:10vw;
+  border-radius:1.564537157757497vw; 
+  width:32.59452411994785vw; height:7.822685788787484vw;
+  background-color: #000;
+  text-align:center;}
+.contact_btn > a {color:#fff; line-height:7.822685788787484vw; font-size:1rem;width: 100%; height: 100%; display:block; }
+
+}

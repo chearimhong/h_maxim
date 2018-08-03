@@ -1,0 +1,43 @@
+@media screen and (min-width:481px) and (max-width:767px) {
+
+#about_infobox {height:100%;}
+
+
+
+/*about_textbox*/
+.about_textbox { background-color: #000;
+  width:100%; height:100%;
+  background-image:url(../../../../img/maxim_about_tablet/infobox/ad_img.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;}
+
+.about_textbox > ul {
+  top:0; left:50%; margin-left:-50%;
+  width:100%; height:100%;
+  background-image:url(../../../../img/maxim_about_tablet/infobox/adbox.png);}
+.about_01 { 
+  position: absolute; top:10%; left:50%; margin-left:-35%;
+  width:70%; height:7%; 
+  background-image:url(../../../../img/maxim_about_tablet/infobox/brand_info.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;}
+.about_02 {
+  position:absolute; top:22%; left:50%; margin-left:-35%;
+  width:70%; height:9%;
+  background-image:url(../../../../img/maxim_about_tablet/infobox/maxim_text.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;}
+.about_03{ 
+  position:absolute; top:35%;left:50%; margin-left:-35%;
+  width:70%; height:70%; color:#fff; 
+  font-size:1.1rem; text-align:left; }
+
+
+.about_img { display:none; }
+
+
+
+ }

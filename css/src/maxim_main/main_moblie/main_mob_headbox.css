@@ -1,0 +1,81 @@
+/*main_mob_headbox.css*/
+@media screen and (max-width:480px) {  
+#headbox { 
+  background-image:url(../../../../img/maxim_main_moblie/headbox/head_img.png);
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-size:cover;}
+
+h1 {
+  top:0.6875rem; left:50%; margin-left:-7.8125rem;
+  width:15.625rem; height:18.75vw;  
+  background-image:url(../../../../img/maxim_main_pc/headbox/maxim_logo.png);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;}
+h1 > a {display:block; width: 100%; height: 100%;}
+/*------navi------*/
+.navi {
+  top:12vw; left:-35%; margin-left:40%;
+  width:38px;height:9.41666666666667vw;}
+   .navi > button {position:relative;z-index:5000;width: 100%; height: 100%; padding:0; }
+  .icon {display:block; width: 100%; height: 3px; background-color: #fff;
+      position:relative;transition:all 500ms ease;}
+.icon:before{content:" "; display:block; width: 100%; height:inherit; background-color: #fff;
+             position: absolute; top:-1rem;transition:all 500ms ease;}
+.icon:after{content:" "; display:block; width: 100%; height:inherit; background-color: #fff;
+            position:relative; bottom:-1rem;transition:all 500ms ease;}
+/*----navi_x-btn------*/        
+.navi > button.active .icon {background:transparent;}
+.navi > button.active .icon:before {transform-origin:top left; width:48px; transform:rotate(45deg);}
+.navi > button.active .icon:after {transform-origin:left bottom;width:48px; transform:rotate(-45deg);}
+
+
+
+/*------navibox-------*/
+#navibox {z-index:1500; display:none;
+  top:0; left:0; 
+  width:87.5vw; height:125vw; 
+  background-image:url(../../../../img/maxim_main_moblie/headbox/gnb_on.png);}
+
+#navibox > ul {
+  top:8%; left:9%;
+  width: 80%; height:80%;}
+#navibox > ul > li {
+  margin-top:10%; margin-left:5%;
+  width:90%; height: 15%; color:#fff;
+  text-align:center;
+  line-height:80%;
+  font-size:1.5rem;}
+#navibox > ul > li > a {color:#fff;}
+
+
+/*---------------------------------*/
+
+.text_box01 > span {display:block;width:0; height:0; overflow:hidden;}
+.text_box02 > span {display:block;width:0; height:0; overflow:hidden;}
+
+
+.text_box01 {z-index:50;
+  top:45%; left:50%; margin-left:-47.5%;
+  width:95%; height:7.29166666vw;
+  background-image:url(../../../../img/maxim_main_moblie/headbox/head_text01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;}
+.text_box02 {z-index:50;
+  top:55%; left:50%; margin-left:-47.5%;
+  width:95%; height:8.333333vw;
+  background-image:url(../../../../img/maxim_main_moblie/headbox/head_text02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;}
+.arrow {
+  bottom:5rem; left:50%; margin-left:-2.5rem;
+  width:5rem; height:1.875rem; 
+  background-image:url(../../../../img/maxim_main_pc/headbox/head_arrow.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;}
+.arrow > a {display:block; width: 100%; height: 100%; }
+}

@@ -1,0 +1,20 @@
+/*main_pc_articlebox.css*/
+@media screen and (min-width:768px) and (max-width:1365px) { 
+#articlebox {position:relative; width: 100%; height:66vw;}
+
+.article_img {position:absolute; top:-15%; left:25%; 
+  margin-left:0;
+  width:75%; height:68.75vw;
+  background-image: url(../../../../img/maxim_main_pc/articlebox/article_img_01.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;}
+
+.article_text {
+  position:relative; top:5%; right:-3.5%;
+  width:18%; height:90%;
+  background-image: url(../../../../img/maxim_main_pc/articlebox/article_text_line.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:contain;}
+   }

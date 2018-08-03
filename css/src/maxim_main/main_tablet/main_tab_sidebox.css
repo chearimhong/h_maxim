@@ -1,0 +1,30 @@
+/*main_tab_sidebox.css*/
+@media screen and (min-width:481px) and (max-width:767px) {  
+#sidebox {
+  height:104.16666vw;}
+.side_banner {
+  padding-top:6.25vw;
+  height: 25vw; }
+.side_banner_text {
+  width: 60%; height: 11.4583333vw;
+  text-align:center;
+  font-size:1.5rem;
+  line-height:11.4583333vw; 
+  background-image:url(../../../../img/maxim_main_pc/sidebox/side_text_1.png);
+  background-repeat:no-repeat;
+  background-size:contain;}
+
+.side_img {top:40%; left:10%;  margin-left:0;
+  width:45%; height:41.66666vw;
+  background-image: url(../../../../img/maxim_main_tablet/sidebox/side_img.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;}
+
+.side_text {
+  top:42%; left:60%; margin-left:0;
+  width: 35%; height:35%;background-image:url(../../../../img/maxim_main_tablet/sidebox/maxim_foot.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;}
+  }

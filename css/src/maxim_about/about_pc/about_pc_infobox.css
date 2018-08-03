@@ -1,0 +1,46 @@
+/*about_pc_infobox.css*/
+@media screen and (min-width:768px) and (max-width:1365px){
+
+#about_infobox {height:90%;}
+
+
+/*about_textbox*/
+.about_textbox {
+  width:40%; height:100%; 
+  background-image:url(../../../../img/maxim_about_pc/info/coffee_img.png);
+  background-repeat: no-repeat;
+  background-position:top left;}
+.about_textbox > ul {
+  top:4.19619vw; left:4.928257686676428vw;
+  width:35%; height:80%;}
+.about_01 {
+  width:85%; height:10%; 
+  background-image:url(../../../../img/maxim_about_pc/info/brand.png);
+  background-repeat: no-repeat;
+  background-position:left;
+  background-size: contain;}
+.about_02 {
+  position:absolute; top:12%;
+  width:85%; height: 12%;
+  background-image:url(../../../../img/maxim_about_pc/info/maximtext.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;}
+.about_03{
+  position:absolute; top:25%;
+  width:85%; height: 70%; color:#000;
+  font-size:1rem; text-align:left;}
+
+
+/*about_img*/
+.about_img {
+  width: 60%; height:100%;
+  background-image:url(../../../../img/maxim_about_pc/info/ad_img.png);
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size:cover;}
+
+
+
+
+}

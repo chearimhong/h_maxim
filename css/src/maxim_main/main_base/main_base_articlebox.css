@@ -1,0 +1,9 @@
+/*main_base_articlebox.css*/
+#articlebox {position:relative; width: 100%; height: 880px;}
+
+.article_img {position:absolute; top:-108px; left:50%; margin-left:-420px;
+  width: 1104px; height: 900px; background-color:#80C080;}
+
+.article_text {
+  position:relative; top:46px; right:-45px;
+  width: 170px; height: 795px; }

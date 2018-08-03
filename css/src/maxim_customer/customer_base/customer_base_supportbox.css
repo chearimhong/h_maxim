@@ -1,0 +1,38 @@
+/*customer_base_supportbox.css*/
+.supportbox {
+
+  width: 100%; height: 1750px; }
+.supportbox > h2 {
+  width: 764px; height: 90px;}
+.supportbox_img {
+  width: 100%; height: 407px;}
+/*supportbox_text*/
+.supportbox_text {
+  width: 1230px; height: 900px;}
+.supportbox_text > p {
+  text-align:left; line-height:69px; 
+  height: 69px;  font-size:1.5rem;}
+/*text_01*/
+.supportbox_text_01 {height: 182px; margin-top:10px;}
+.supportbox_text_01 > dt {
+  line-height:60px; height: 60px; color:#673f02; font-size:1.5rem;}
+.supportbox_text_01 > dd {
+  height: 122px; font-size:1.5rem;}
+/*text_02*/
+.supportbox_text_02 {height: 182px; margin-top:10px;}
+.supportbox_text_02 > dt {
+  line-height:60px; height: 60px; color:#673f02; font-size:1.5rem;}
+.supportbox_text_02 > dd {
+  height: 122px; font-size:1.5rem;}
+/*text_03*/
+.supportbox_text_03 {height: 182px; margin-top:10px;}
+.supportbox_text_03 > dt {
+  line-height:60px; height: 60px; color:#673f02; font-size:1.5rem;}
+.supportbox_text_03 > dd {
+  height: 122px;  font-size:1.5rem;}
+
+.contact_btn {
+  border-radius:12px; width: 400px; height:80px; background-color: #000;
+  text-align:center;}
+.contact_btn > a {color:#fff; line-height:80px; font-size:1.5rem;width: 100%; height: 100%; display:block; }
+

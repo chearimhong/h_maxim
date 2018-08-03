@@ -1,0 +1,113 @@
+@media screen and (max-width:480px) {
+#slogan_box {
+  position:relative; width: 100%; height:312.5vw;}
+.slogan_img {
+  width: 100%; height: 302.0833333vw;
+  background-image:url(../../../../img/maxim_about_pc/sloganbox/slogan_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;}
+
+
+/*---slogan_head---*/
+.slogan_head { width: 100%; height:41.666666666vw; }
+.slogan_logo {
+  position:absolute;
+  top:6.25vw; left:50%; margin-left:-10.41666666666667vw;
+  width:20.83333333vw; height:20.83333333333333vw;
+  background-image:url(../../../../img/maxim_about_pc/sloganbox/slogan_logo.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;}
+.slogan_title {
+  position:absolute; 
+  top:20.833333vw; left:50%; margin-left:-26.0416666vw;
+  width:52.0833333vw; height:20.8333333vw;
+  background-image:url(../../../../img/maxim_about_pc/sloganbox/brand_slogan.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+
+/*----slogan_area------*/
+.slogan_area {
+  position:relative; top:4.166666666vw;
+  width: 100%; height: 250vw;}
+.slogan_ul{
+  position:absolute;top:19.27083vw;
+  width: 100%; height: 166.6666666vw;}
+
+/*----slogan_sbox_1----*/
+.slogan_sbox_1 { 
+  box-sizing:border-box;padding:0 0 0 0;
+  width:100%; height:41.66666666vw;
+  background-image:url(../../../../img/maxim_about_pc/sloganbox/text_01_box.png);}
+.sbox_text_01 {
+  float:none;position:absolute; left:50%; margin-left:-45%;
+  width:90%; height:41.666666vw;
+  background-image:url(../../../../img/maxim_about_moblie/sloganbox/text_001.png);
+  background-repeat: no-repeat;
+  background-position:left;
+  background-size:contain;}
+.sbox_icon_01 {
+  flaot:none; margin-top:0; position:absolute;
+  top:-20.8333333vw;
+  width:18.75vw; height:18.75vw;
+  background-image:url(../../../../img/maxim_about_moblie/sloganbox/icon_01.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:contain;}
+
+/*-----slogan_sbox_2-------*/
+.slogan_sbox_2 {
+  box-sizing:border-box; padding:0 0 0 0;
+  position:absolute;top:83.33333333333vw;right:0;
+  width:100%; height:41.66666666666667vw;
+  background-image:url(../../../../img/maxim_about_moblie/sloganbox/text_01_box.png);}
+.sbox_text_02 {
+  float:none; margin: auto;
+  width:90%; height:41.66666666666667vw;
+  background-image:url(../../../../img/maxim_about_moblie/sloganbox/text_002.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;}
+.sbox_icon_02 {
+  float:none; margin-top:0; position: absolute;
+  top:-20.83333333333333vw; right:0;
+  width:18.75vw; height:18.75vw; 
+  background-image:url(../../../../img/maxim_about_moblie/sloganbox/icon_02.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: contain;}
+
+/*------slogan_sbox_3-------*/
+.slogan_sbox_3 {
+  box-sizing: border-box; padding:0 0 0 0;
+  position:absolute; bottom:0; top:170.8333333333333vw;
+  width:100%; height: 41.66666666666667vw;
+  background-image:url(../../../../img/maxim_about_pc_full/slogan/text_03_box.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;}
+.sbox_text_03 {
+  float:none; margin:auto; margin-top:7.291666666666667vw;
+  width:90%; height:27.08333333333333vw;
+  background-image:url(../../../../img/maxim_about_moblie/sloganbox/text_003.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:contain;}
+.sbox_icon_03 {
+  float:none; margin-top:0; margin-left:0; 
+  position:absolute;bottom:0; top:-20.83333333333333vw; left:0;
+  width:18.75vw; height:18.75vw;
+  background-image:url(../../../../img/maxim_about_moblie/sloganbox/icon_03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+
+
+
+
+
+
+
+}
