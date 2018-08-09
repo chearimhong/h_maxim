@@ -10,11 +10,16 @@
 .slogan_logo {
   position:absolute;
   top:30px; left:50%; margin-left:-81px;
-  width: 162px; height: 152px;}
+  width: 162px; height: 152px;
+  transition:all 1000ms ease 500ms; opacity: 0;}
+.slogan_logo.active {transform:translateX(0); opacity: 1;}
 .slogan_title {
   position:absolute; 
   top:182px; left:50%; margin-left:-239px;
-  width:478px; height: 85px;}
+  width:478px; height: 85px;
+  transform:translateX(-10rem);
+  transition:all 300ms ease 1000ms; opacity: 0;}
+.slogan_title.active {transform:translateX(0); opacity: 1;}
 
 /*----slogan_area------*/
 .slogan_area {
@@ -27,37 +32,67 @@
 /*----slogan_sbox_1----*/
 .slogan_sbox_1 {
   box-sizing:border-box;padding:47px 30px 64px 40px;
-  width: 918px; height: 359px;}
+  width: 918px; height: 359px;
+  transform:translateX(-10rem);
+  transition:all 800ms ease ; opacity: 0;}
+.slogan_sbox_1.active{transform:translateX(0); opacity: 1;}
+/*///*/
 .sbox_text_01 {
   float:left;
-  width: 636px; height: 264px;}
+  width: 636px; height: 264px;
+  transform:translateX(-10rem);
+  transition:all 900ms ease ; opacity: 0;}
+.sbox_text_01.active{transform:translateX(0); opacity: 1;}
+/*////*/
 .sbox_icon_01 {
   float:left;margin-top: 54px;
-  width: 203px; height: 208px;}
+  width: 203px; height: 208px;
+  transition:all 1000ms ease 500ms ; opacity: 0;}
+.sbox_icon_01.active{transform:translateX(0); opacity: 1;}
 
 /*-----slogan_sbox_2-------*/
 .slogan_sbox_2 {
   box-sizing:border-box; padding:57px 17px 62px 26px;
   position:absolute;top:778px;right:0;
-  width: 905px; height: 359px;}
+  width: 905px; height: 359px;
+  transform:translateX(10rem);
+  transition:all 800ms ease ; opacity: 0;}
+.slogan_sbox_2.active{transform:translateX(0); opacity: 1;}
+/*/////*/
 .sbox_text_02 {
   float:right;
-  width: 668px; height: 240px;}
+  width: 668px; height: 240px;
+  transform:translateX(10rem);
+  transition:all 900ms ease ; opacity: 0;}
+.sbox_text_02.active{transform:translateX(0); opacity: 1;}
+/*/////*/
 .sbox_icon_02 {
   float:left; margin-top:50px;
-  width: 187px; height: 177px;}
+  width: 187px; height: 177px;
+  transition:all 1000ms ease 500ms; opacity: 0;}
+.sbox_icon_02.active{transform:translateX(0); opacity: 1;}
 
 /*------slogan_sbox_3-------*/
 .slogan_sbox_3 {
   box-sizing: border-box; padding:77px 45px 81px 40px;
   position:absolute; bottom:310px;
-  width: 723px; height: 359px;}
+  width: 723px; height: 359px;
+  transform:translateX(-10rem);
+  transition:all 800ms ease ; opacity: 0;}
+.slogan_sbox_3.active{transform:translateX(0); opacity: 1;}
+/*/////*/
 .sbox_text_03 {
   float:left;
-  width: 419px; height: 201px;}
+  width: 419px; height: 201px;
+  transform:translateX(-10rem);
+  transition:all 900ms ease ; opacity: 0;}
+.sbox_text_03.active{transform:translateX(0); opacity: 1;}
+/*/////*/
 .sbox_icon_03 {
   float:left; margin-left: 36px;
-  width: 146px; height: 181px;}
+  width: 146px; height: 181px;
+  transition:all 1000ms ease 500ms; opacity: 0;}
+.sbox_icon_03.active{transform:translateX(0); opacity: 1;}
 
 
 

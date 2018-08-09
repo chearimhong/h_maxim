@@ -6,4 +6,8 @@
 
 .article_text {
   position:relative; top:46px; right:-45px;
-  width: 170px; height: 795px; }
+  width: 170px; height: 795px;
+  transform:translateX(-10rem);
+  transition:all 800ms ease; opacity: 0;}
+
+.article_text.active{transform:translateX(0); opacity: 1;}

@@ -135,7 +135,7 @@ dd {
 
 /*load more*/
 .load_more_btn {
-  position:absolute;top:auto; bottom:21.96193265007321vw; left:50%; margin-left:-200px;
+  position:absolute;top:auto; bottom:15.96193265007321vw; left:50%; margin-left:-200px;
   width:400px; height:80px; background-color: #000;
   border-radius:12px;}
 .load_more_btn > a {

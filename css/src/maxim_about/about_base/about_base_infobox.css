@@ -8,9 +8,25 @@
 .about_textbox > ul {
   position:absolute; width: 557px; height: 707px;
   top:86px;left:30px;}
-.about_01 {width: 557px; height: 85px;}
-.about_02 {width: 557px; height: 112px; }
-.about_03 {width: 557px; height: 510px; }
+
+
+.about_01 {
+  width: 557px; height: 85px;
+  transform:translateX(-10rem);
+  transition:all 500ms ease 500ms; opacity: 0;}
+.about_01.active{transform:translateX(0); opacity: 1;}
+
+
+.about_02 {
+  width: 557px; height: 112px;
+  transition:all 600ms ease 800ms; opacity: 0; }
+.about_02.active{transform:translateX(0); opacity: 1;}
+
+
+.about_03 {
+  width: 557px; height: 510px;
+  transition:all 600ms ease 800ms; opacity: 0;}
+.about_03.active{transform:translateX(0); opacity: 1;}
 
 
 

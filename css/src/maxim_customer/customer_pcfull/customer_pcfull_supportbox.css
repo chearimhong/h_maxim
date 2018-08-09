@@ -25,25 +25,25 @@
   width: 1230px; height: 900px;}
 .supportbox_text > p {
   text-align:left; line-height:69px; 
-  height: 69px;  font-size:1.5rem;}
+  height: 69px;  font-size:1.1rem;}
 /*text_01*/
 .supportbox_text_01 {height: 182px; margin-top:10px;}
-.supportbox_text_01 > dt {
+.supportbox_text_01 > dt {font-weight:bold;
   line-height:60px; height: 60px; color:#673f02; font-size:1.5rem;}
 .supportbox_text_01 > dd {
-  height: 122px; font-size:1.5rem;}
+  height: 122px; font-size:1.1rem;}
 /*text_02*/
 .supportbox_text_02 {height: 182px; margin-top:10px;}
-.supportbox_text_02 > dt {
+.supportbox_text_02 > dt {font-weight:bold;
   line-height:60px; height: 60px; color:#673f02; font-size:1.5rem;}
 .supportbox_text_02 > dd {
-  height: 122px; font-size:1.5rem;}
+  height: 122px; font-size:1.1rem;}
 /*text_03*/
 .supportbox_text_03 {height: 182px; margin-top:10px;}
-.supportbox_text_03 > dt {
+.supportbox_text_03 > dt {font-weight:bold;
   line-height:60px; height: 60px; color:#673f02; font-size:1.5rem;}
 .supportbox_text_03 > dd {
-  height: 122px;  font-size:1.5rem;}
+  height: 122px;  font-size:1.1rem;}
 
 .contact_btn {
   position: absolute; top:auto; bottom:300px; left:50%; margin-left:-200px;

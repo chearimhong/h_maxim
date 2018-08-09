@@ -13,9 +13,9 @@ box-sizing:border-box;
 .info_text {
   float:left; text-align:center;
   width:auto; height:20%;}
-.info_text > a { font-size:0.8rem;}
+.info_text > a {  font-size:0.875rem;}
 .info_text_2 {float:left;  width:90%;height:1.830161vw;
-  margin-top:18px;}
+  margin-top:18px; font-size:0.875rem;}
 .info_text_3 {display:none;}
 .bar { margin-left:1.25rem; margin-right:1.25rem;
   display: inline-block; width:0.125rem; height:1.09809vw; 

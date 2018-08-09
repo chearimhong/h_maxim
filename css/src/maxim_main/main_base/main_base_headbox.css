@@ -44,13 +44,31 @@ h1 {
 
 .text_box01 {
   position:absolute; top:420px; left:50%; margin-left:-440px;
-  width: 880px; height: 40px; }
+  width: 880px; height: 40px;
+  transform:translateY(-10rem);
+  transition:all 1000ms ease 300ms; opacity: 0;}
 .text_box02 {
   position:absolute; top:479px; left:50%; margin-left:-380px;
-  width: 760px; height: 40px;}
+  width: 760px; height: 40px;
+  transform:translateY(-10rem);
+  transition:all 1000ms ease 1000ms; opacity: 0;}
+
+.text_box01.active{transform:translateX(0); opacity: 1;}
+.text_box02.active{transform:translateX(0); opacity: 1;}
+
+
 .arrow {
   position:absolute; left:50%; margin-left:-37px; 
   width: 74px; height: 40px; 
   background-position:center;
   background-repeat: no-repeat;
-  background-size:contain;}
+  background-size:contain;
+  animation:cr 800ms infinite alternate;
+  }
+
+  @keyframes cr {
+    0%{transform:translateY(-1rem);} 
+    
+    100%{transform:translateY(1rem);} 
+    
+  }

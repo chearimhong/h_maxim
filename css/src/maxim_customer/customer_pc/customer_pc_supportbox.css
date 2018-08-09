@@ -24,34 +24,34 @@
 .supportbox_text > p {
   text-align:left; line-height:5.054945054945055vw; 
   height: 5.054945054945055vw;  
-  font-size:1.758241758241758vw;}
+  font-size:1.258241758241758vw;}
 /*text_01*/
 .supportbox_text_01 {height: 13.33333333333333vw; 
   margin-top:0.7326007326007326vw;}
 .supportbox_text_01 > dt {
   line-height:4.395604395604396vw; height: 4.395604395604396vw; 
-  color:#673f02; font-size:1.758241758241758vw;
+  color:#673f02; font-size:1.558241758241758vw;
   font-weight:bold;}
 .supportbox_text_01 > dd {
-  height: 8.937728937728938vw; font-size:1.758241758241758vw;}
+  height: 8.937728937728938vw; font-size:1.258241758241758vw;}
 /*text_02*/
 .supportbox_text_02 {height: 13.33333333333333vw;  margin-top:0.7326007326007326vw;}
 .supportbox_text_02 > dt {
   line-height:4.395604395604396vw; height: 4.395604395604396vw; 
-  color:#673f02;font-size:1.758241758241758vw;
+  color:#673f02;font-size:1.558241758241758vw;
   font-weight:bold;}
 .supportbox_text_02 > dd {
   height: 8.937728937728938vw;
-  font-size:1.758241758241758vw;}
+  font-size:1.258241758241758vw;}
 /*text_03*/
 .supportbox_text_03 {height: 13.33333333333333vw; margin-top:0.7326007326007326vw;}
 .supportbox_text_03 > dt {
   line-height:4.395604395604396vw; height: 4.395604395604396vw; 
-  color:#673f02; font-size:1.758241758241758vw;
+  color:#673f02; font-size:1.558241758241758vw;
   font-weight:bold;}
 .supportbox_text_03 > dd {
   height: 8.937728937728938vw;
-  font-size:1.758241758241758vw;}
+  font-size:1.258241758241758vw;}
 
 .contact_btn {
   margin: auto;

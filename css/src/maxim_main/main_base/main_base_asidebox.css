@@ -1,8 +1,23 @@
 /*main_base_asidebox.css*/
 #asidebox {
   position:relative;
-  width: 100%; height:1002px;background-color:#FFFFA0;}
+  width: 100%; height:1002px;background-color:#FFFFA0;
+}
 
+.aside_text_box {
+position:absolute; top:5%; right:2%;
+width:13%; height: 90%; 
+background-image:url(../../../../img/maxim_main_pc_full/asidebox/aside_box.png);
+transform:translateX(10rem);
+transition:all 800ms ease; opacity: 0;}
 .aside_text {
   position:absolute; top:71px; right:5%;
-  width: 148px; height: 781px;}
+  width: 148px; height: 781px;
+  transform:translateX(10rem);
+  transition:all 800ms ease; opacity: 0;}
+
+
+.aside_text_box.active {transform:translateX(0); opacity: 1;}
+.aside_text.active{transform:translateX(0); opacity: 1;}
+
+
