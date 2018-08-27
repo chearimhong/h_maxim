@@ -1,8 +1,9 @@
 /* main_base_wrap.css*/
-
+body {overflow:visible; overflow-x:hidden;}
 .bgi{position: fixed; z-index: -300; top: 0; left: 0; width: 100%; height:100%; 
   background-image:url(../../../../img/maxim_main_pc/bgc.png); 
   background-repeat:repeat; background-position: 0;
   background-size:contain;}
 #wrap {width:100%; height:100%;}
+
 

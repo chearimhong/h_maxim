@@ -10,7 +10,7 @@ probutton.on('click', function(e){
   e.preventDefault();
   var parent = $(this).parent().index();
 ul.eq(parent).show();
-ul.eq(parent).siblings().hide();
+ul.eq(parent).siblings('ul').hide();
 });
 
 }) (jQuery);
