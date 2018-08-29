@@ -6,7 +6,21 @@ var pro_on = $('.product_onbox');
 var pro_narr = $('.product_narr');
 var pro_narr_li = pro_narr.children('div');
 var back_btn = $('.close_btn');
+// ===============================================
+var product = $('.product_list');
+var proLi = product.children('li');
+var probutton = proLi.children('button');
+var onbox = $('.product_onbox');
+var ul = onbox.children('ul');
 
+probutton.on('click', function(e){
+  e.preventDefault();
+  var parent = $(this).parent().index();
+ul.eq(parent).show();
+ul.eq(parent).siblings('ul').hide();
+});
+
+// ===============================================
 
 pro_li.on('click',function(e){
  e.preventDefault();

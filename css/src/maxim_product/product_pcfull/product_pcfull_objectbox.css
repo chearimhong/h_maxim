@@ -1,5 +1,5 @@
 /*product_pcfull_objectbox.css*/
-@media screen and (min-width:1366px){
+@media screen and (min-width:1366px) {
 #objectbox {width: 100%; height:95.16837481698389vw;}
 
 /*unbbox*/
@@ -175,7 +175,7 @@
 
 
 .narr_02 {display:none;}
-.narr_03 {display:none}
+.narr_03 {display:none;}
 
 
 

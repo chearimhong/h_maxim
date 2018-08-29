@@ -61,7 +61,7 @@
 .product_narr{
   position: absolute; top:16px; right: 288px; width:850px; height:550px;
   box-sizing:border-box; padding:20px;}
-
+.product_list button:focus {outline:none;}
   
 /* ----------------------------------------------- */
 
@@ -97,7 +97,7 @@
           position: absolute; left: 80%; margin-left: -1.5rem; top:3.5rem;}
 .close_btn:hover {cursor:pointer;}
 .narr_02 {display:none;}
-.narr_03 {display:none}
+.narr_03 {display:none;}
 
 
 
